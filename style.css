@@ -1,0 +1,64 @@
+*{ box-sizing : border-box;}
+
+.open-form {
+    background-color: #555;
+    color: aliceblue;
+    padding: 16px 20px;
+    border: none;
+    opacity: 0.8;
+    position: fixed;
+    width: 280;
+    bottom: 23;
+    right: 28;
+}
+
+.openform {
+    margin-top: 40px;
+    display: none;
+    position: fixed;
+    border: 3px solid #300cfa;
+    z-index: 9;
+}
+
+.container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(4, 247, 239);
+}
+
+.container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    position: relative;
+    margin: auto;
+    width: 200px;
+    padding: 6px;
+    margin: auto;
+}
+
+.field label {
+    position: relative;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    border: 3px solid #555;
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.box button {
+    position: relative;
+    margin: 5px;
+    padding: 3px;
+    text-align: right; 
+    border: 1px solid gray;
+}

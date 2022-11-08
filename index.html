@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <body>
+        <button class="open-form" onclick="openform()">Add Book</button><br><br>
+
+        <div class="openform" id="bdata">
+            <form action="#" class="container" id="myform">
+                <div class="field">
+                    <label for="title">Book's Name :</label><br>
+                    <input type="text" id="title" name="title" required><br>
+                    <span></span>
+                </div>
+
+                <div class="field">
+                    <label for="author">Author's Name :</label><br>
+                    <input type="text" id="author" name="author" required><br>
+                    <span></span>
+                </div>
+                
+                <div class="field">
+                    <label for="pages">Pages :</label><br>
+                    <input type="text" id="pages" name="pages" required><br>
+                    <span></span>
+                </div>
+                
+                <!-- since for uncheck box form data is not send-->
+                <div class="field">
+                    <input type="checkbox" id="status" name="status" value="true" checked>
+                    <label for="status">Have You Read it !</label><br>
+                </div>      
+                
+                <div class="field">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="contruct.js"></script>
+
+</html>
